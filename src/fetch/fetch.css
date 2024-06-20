@@ -1,0 +1,29 @@
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; /* Adjust spacing between tables */
+    padding: 20px; /* Optional: Add padding around the grid */
+}
+
+.table {
+    border: 10px solid #000;
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding and border are included in the size */
+    text-align: left;
+}
+
+.flag {
+    font-size: 3em;
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Adjust spacing between cards */
+    padding: 20px; /* Optional: Add padding around the grid */
+}
