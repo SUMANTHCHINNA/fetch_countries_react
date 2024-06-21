@@ -24,8 +24,8 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px; /* Adjust spacing between cards */
-    padding: 20px; /* Optional: Add padding around the grid */
+    gap: 20px;
+    padding: 20px; 
 }
 
 .search input {
@@ -39,4 +39,17 @@ h3 {
     
 .search input:hover {
        transform: scale(1.05);
+}
+
+.filter-select{
+    width: 150px;
+    padding: 5px;
+    margin: 20px 0;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    font-size: 19px;
+}
+
+.filter-select:hover{
+    transform: scale(1.05);
 }
