@@ -35,7 +35,7 @@ const Change = () => {
                         value={country} 
                         placeholder='Search for a country...'
                     />
-                    <h3>{country}</h3>
+                    
                 </div>
             </center>
 

@@ -28,7 +28,15 @@ h3 {
     padding: 20px; /* Optional: Add padding around the grid */
 }
 
-.search{
-    justify-content: right;
-    background-color: aliceblue;
+.search input {
+    width: 500px;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    font-size: 19px;
+}
+    
+.search input:hover {
+       transform: scale(1.05);
 }
