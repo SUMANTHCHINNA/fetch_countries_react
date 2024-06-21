@@ -27,3 +27,8 @@ h3 {
     gap: 20px; /* Adjust spacing between cards */
     padding: 20px; /* Optional: Add padding around the grid */
 }
+
+.search{
+    justify-content: right;
+    background-color: aliceblue;
+}
